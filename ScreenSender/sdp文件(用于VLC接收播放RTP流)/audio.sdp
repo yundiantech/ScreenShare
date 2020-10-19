@@ -1,0 +1,3 @@
+m=audio 6000 RTP/AVP 97
+c=IN IP4 127.0.0.1
+a=rtpmap:97 mpeg4-generic/44100/2
