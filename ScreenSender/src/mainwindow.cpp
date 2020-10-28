@@ -69,7 +69,7 @@ do
     }
     else if (code == AudioOpenFailed)
     {
-        QMessageBox::critical(NULL, QStringLiteral("提示"), QStringLiteral("初始化录音设备失败！已管理员权限运行插件目录下的reg.bat即可解决。"));
+        QMessageBox::critical(NULL, QStringLiteral("提示"), QStringLiteral("初始化录音设备失败！以管理员权限运行插件目录下的reg.bat即可解决。"));
 
         fprintf(stderr, "init device failed! \n");
     }
